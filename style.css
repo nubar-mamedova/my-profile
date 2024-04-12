@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e8f5e9; /* Soft green background */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto; /* Center the container */
+}
+
+.card-white {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    border-radius: 50%; /* Make the image round */
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px; /* Center the image */
+}
+
+a.btn-blue {
+    display: inline-block;
+    background-color: #4caf50; /* Normal green for the button */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+a.btn-blue:hover {
+    background-color: #388e3c; /* Darken the button on hover */
+}
+
+.list-inline {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.list-inline li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.list-inline li a {
+    /* If you have additional styles for links, they go here */
+}
